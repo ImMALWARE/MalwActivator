@@ -19,7 +19,9 @@
 * Project 2016
 ### Использование
 Для запуска не нужно ничего скачивать. Нужно выполнить всего одну команду:
-< powershell -command "iwr -useb https://raw.githubusercontent.com/ImMALWARE/MalwActivator/main/MalwActivator.ps1 | iex" > 
+```pwsh
+powershell -command "iwr -useb https://raw.githubusercontent.com/ImMALWARE/MalwActivator/main/MalwActivator.ps1 | iex"
+```
 Далее выберите приложение, которое вам нужно активировать из удобного интерфейса. И все!
 ![Скриншот активатора](https://github.com/ImMALWARE/MalwActivator/raw/main/files/screenshot.png?raw=true)
 ![Скриншот результата](https://github.com/ImMALWARE/MalwActivator/raw/main/files/result_screenshot.png?raw=true)
