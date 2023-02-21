@@ -22,6 +22,10 @@
 ```pwsh
 powershell -command "iwr -useb https://raw.githubusercontent.com/ImMALWARE/MalwActivator/main/MalwActivator.ps1 | iex"
 ```
+Второй, сокращенный вариант команды (просто редирект на тот же GitHub с моего сайта)
+```pwsh
+powershell -command "iwr -useb https://malw.ru/dl/malwactivator | iex"
+```
 Далее выберите приложение, которое вам нужно активировать из удобного интерфейса. И все!
 ![Скриншот активатора](https://github.com/ImMALWARE/MalwActivator/raw/main/files/screenshot.png?raw=true)
 ![Скриншот результата](https://github.com/ImMALWARE/MalwActivator/raw/main/files/result_screenshot.png?raw=true)
