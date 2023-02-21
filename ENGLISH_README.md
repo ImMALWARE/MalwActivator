@@ -18,7 +18,8 @@ This activator allows you to activate different versions of Windows and Office w
 * Project 2021
 * Project 2019
 * Project 2016
-#Usage
+### Additionally, it can remove all Office16 licenses.
+# Usage
 No need to download anything to run the activator. Just execute this single command:
 ```pwsh
 powershell -command "iwr -useb https://raw.githubusercontent.com/ImMALWARE/MalwActivator/main/MalwActivator.ps1 | iex"
