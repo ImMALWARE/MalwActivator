@@ -1,4 +1,5 @@
-[README на русском](https://github.com/ImMALWARE/MalwActivator/blob/main/README.md)# Universal Activator for Windows and Office
+[README на русском](https://github.com/ImMALWARE/MalwActivator/blob/main/README.md)
+# Universal Activator for Windows and Office
 This activator allows you to activate different versions of Windows and Office without the need to download additional software. All you need to do is run a command in the command prompt and select the application to activate from a convenient interface.
 
 #Compatible Versions of Windows and Office
