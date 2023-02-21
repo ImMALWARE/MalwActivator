@@ -17,7 +17,7 @@
 * Project 2021
 * Project 2019
 * Project 2016
-### Использование
+# Использование
 Для запуска не нужно ничего скачивать. Нужно выполнить всего одну команду:
 ```pwsh
 powershell -command "iwr -useb https://raw.githubusercontent.com/ImMALWARE/MalwActivator/main/MalwActivator.ps1 | iex"
