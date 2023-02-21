@@ -1,3 +1,5 @@
+# Source: https://github.com/ImMALWARE/MalwActivator/
+# Made by MALWARE (https://malw.ru/pages/contacts)
 Add-Type -AssemblyName System.Windows.Forms
 Add-Type -Name Window -Namespace Console -MemberDefinition '[DllImport("Kernel32.dll")]public static extern IntPtr GetConsoleWindow();[DllImport("user32.dll")]public static extern bool ShowWindow(IntPtr hWnd, Int32 nCmdShow);'
 [void][Console.Window]::ShowWindow([Console.Window]::GetConsoleWindow(), 0)
@@ -72,7 +74,7 @@ switch ($ver) {
             exit
         }
         New-Item -ItemType Directory -Path "$env:temp\malwactivator"
-        Invoke-WebRequest -Uri "https://get.msguides.com/office2013/Office_2013_Library.zip" -OutFile $env:temp\malwactivator\library.zip
+        Invoke-WebRequest -Uri "https://github.com/ImMALWARE/MalwActivator/raw/main/files/Office_2013_Library.zip" -OutFile $env:temp\malwactivator\library.zip
         Expand-Archive -Path "$env:temp\malwactivator\library.zip" -DestinationPath "$env:temp\malwactivator\"  
         Set-Content $tmpFile -Value "@echo off
         title MalwActivator: $ver
