@@ -5,11 +5,11 @@
 ## Launch
 To start, execute the following command. The easiest way is to open Windows search and run it there. You can also run it in Win + R, cmd, PowerShell, or New Shortcut Wizard
 ```pwsh
-powershell -command "iwr -useb https://raw.githubusercontent.com/ImMALWARE/MalwTool/main/MalwTool.ps1 | iex"
+powershell -command "irm https://raw.githubusercontent.com/ImMALWARE/MalwTool/main/MalwTool.ps1 | iex"
 ```
 Second, shortened command variant (simple redirect to the same GitHub from my website)
 ```pwsh
-powershell -command "iwr -useb https://malw.ru/dl/malwtool | iex"
+powershell -command "irm https://malw.ru/dl/malwtool | iex"
 ```
 
 # Features
